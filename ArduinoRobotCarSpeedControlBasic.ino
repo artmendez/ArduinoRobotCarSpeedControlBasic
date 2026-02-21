@@ -178,7 +178,8 @@ void setup() {
   // Estado inicial: alto
   alto();
 
-  // (Opcional) Puede hacerse un arranque con un pequeño par para "despegar" motores duros:
+  // (Opcional) Puede hacerse un arranque con un pequeño par para "despegar" motores duros.
+  // si se desea, descomentar las siguientes líneas para probar un arranque suave:
   // mover(25, 25);
   // delay(150);
   // alto();
